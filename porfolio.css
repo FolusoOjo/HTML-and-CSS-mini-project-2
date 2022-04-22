@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow-y: hidden; */
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: white;
+}
+nav{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.left{
+    padding: 1rem 5rem;
+}
+.left img{
+    width: 20rem;
+}
+.right ul{
+    display: flex;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 0 3rem;
+    align-items: center;
+    list-style: none;
+}
+.right ul li{
+    padding: 0 2rem;
+    overflow-x: hidden;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.right ul li a:hover{
+    color: #ec5b53;
+}
+
+.right ul button{
+    margin: 0 3rem;
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: red;
+    border-color: transparent;
+    border-radius: 0.5rem;
+}
+
+.flex{
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2{
+    color: red;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 3rem 0;
+    font-weight: lighter;
+}
+
+.text h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 6.5rem;
+    color: #002d5b;
+}
+
+.text p{
+    font-size: 2rem;
+    width: 40vw;
+    margin: 3rem 0;
+}
+
+#img{
+    margin: 10rem 0;
+    margin-left: 2rem;
+    background: transparent;
+}
+
+#btn{
+    background-color: #ec5b53;
+    padding: 1.5rem 3rem;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+#btn:hover{
+    background-color: #E83A14;
+}
+
+#hire{
+    background-color: transparent;
+    padding: 1.5rem 3rem;
+    border: 0.2rem #ec5b53 solid;
+    border-radius: 0.5rem;
+    color: #464d65; 
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+#hire:hover{
+    background-color: #ec5b53;
+    color: white;
+}
+
+.end{
+    display: flex;
+    margin-top: 4rem;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#design{
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+#any{
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
